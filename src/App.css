@@ -1,0 +1,49 @@
+
+
+.Btn-class{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.5rem;
+}
+
+.Btn{
+    padding: 1rem;
+}
+
+* {
+    font-family: sans-serif;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+    /* display: block; */
+    margin: 23px;
+    padding: 16px;
+    /* margin-bottom: 20px; */
+  }
+  button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+  }
+  button:nth-last-child(3),
+  button:nth-last-child(2) {
+    background: tomato;
+    color: white;
+  }
+  button:nth-last-child(1) {
+    background: lightskyblue;
+    color: white;
+  }
+
+.resultDisplay{
+    border: 1px solid black;
+    border-radius: 9px;
+    /* color: black; */
+    padding: 21px;
+    margin: 18px;
+}
